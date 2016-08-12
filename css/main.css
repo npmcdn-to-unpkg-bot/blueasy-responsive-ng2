@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.5.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.5.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.5.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.5.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.5.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/opensans-regular-webfont.eot');
+  src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'), url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+    font-family: open_sansregular;    
+    color: #fff;
+	overflow-x: hidden;
+	width: 100%;
+    background: #515f68 url("../img/header-bg.jpg") center center fixed no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    background-blend-mode: luminosity;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+.navBarHeader{
+	background: rgba(53, 63, 70, 0.85);	
+	min-height: 75px;	
+}
+
+.nav > li > a {
+	font-family: open_sansregular;
+    font-size: 14px;
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.nav  li:hover  a, .nav  li.active  a, ul.filters li:hover, ul.filters li.active{
+	background-color: transparent;
+	color: #4bcaff;
+	border: 1px solid #4bcaff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.center{
+	left:25%;
+	width:50%;
+	height:50%;
+	top:25%;
+	position:absolute;
+	text-align:center;
+}
+
+#home {    
+    background: transparent;
+}
+
+#home > h1 > span {
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 10px;
+  padding: 7px;
+  position: relative;
+}
+
+#home > h1 {
+	color: #fff;
+	font-size: 42px;
+	padding: 200px 0;
+	text-transform: uppercase;  
+}
+
+#services {
+    background-color: #4bcaff;
+	color: #fff;
+	padding: 60px 0;
+}
+
+#services  h2 , #portfolio  h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#services .col-md-3 {
+  margin: 50px 0 0 0;
+}
+
+#services > div > .row > div > h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+#services > div > .row > div > p {
+	font-size: 12px;
+    line-height: 25px;
+    margin: 30px 0 0 0;
+}
+
+#portfolio {
+    background-color: #fff;
+	color: #515f67;
+	padding: 60px 0;
+}
+
+ul.filters li{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+
+ul.filters li a{
+	text-decoration: none;
+	font-family: open_sansregular;
+    font-size: 14px;
+	color: #515f67;
+}
+
+.portfolioGrid{
+	margin: 20px 0;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.img-hover {
+  overflow: hidden;
+  position: relative;
+}
+
+.hover {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.hover img {
+  display: block;
+  margin: 47% auto 10px auto;
+  width: 32px;
+}
+
+.img-hover:hover .hover {
+  cursor: pointer;
+  display: block;
+}
