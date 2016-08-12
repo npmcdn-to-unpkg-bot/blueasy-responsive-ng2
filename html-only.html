@@ -1,0 +1,183 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+		<base href="/">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style></style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<!--<app></app>-->
+		
+		<div class="navbar navbar-fixed-top navBarHeader">
+			<div class="container">
+				<a href="#" class="navbar-brand">BLUEASY</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>				
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a routerLink="/home" routerLinkActive="active">home</a></li>						
+						<li><a routerLink="/services" routerLinkActive="active">services</a></li>
+						<li><a href="#">features</a></li>
+						<li><a routerLink="/portfolio" routerLinkActive="active">portfolio</a></li>
+						<li><a href="#">contact</a></li>
+					</ul>
+					<router-outlet></router-outlet>
+				</div>
+			</div>
+		</div>
+		
+		<section id="home" class="section">			
+			<h1 class="text-center">
+				<span>"I'm looking for the unexpected.</span> <br> 
+				<span>I'm looking for things I've never seen before."</span>
+			</h1>
+		</section>
+		
+		<section id="services" class="section">
+			<div class="container">
+				<h2 class="title">services</h2>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/coffee.png" alt="coffee">
+						<h3>coffee</h3>
+						<p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/instant.png" alt="instant">
+						<h3>instant</h3>
+						<p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/serious.png" alt="serious">
+						<h3>serious</h3>
+						<p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<img src="img/frame.png" alt="frame">
+						<h3>frame</h3>
+						<p>Apple pie icing sweet. Brownie jelly-o applicake applicake sweet roll liquorice bear claw. Jujubes carrot cake cotton candy sweet tart brownie. Tiramisu applicake jujubes.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="portfolio" class="section">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-5 col-sm-12">
+					<h2 class="title">portfolio</h2>
+				</div>
+				<div class="col-md-7 col-sm-12">
+					<ul class="filters">
+						<li class="active"><a href="#">All</a></li>
+						<li><a href="#">panorams</a></li>
+						<li><a href="#">portraits</a></li>
+						<li><a href="#">makro</a></li>
+						<li><a href="#">journal</a></li>
+					</ul>
+				</div>
+				</div>
+				<div class="portfolioGrid">
+					<div class="item col-md-3 col-sm-6 col-xs-12">
+						<div class="img-hover">
+							<a href="#">
+								<img src="img/portfolio-1.jpg" alt="" class="img-responsive">
+								<span class="hover">
+									<img src="img/portfolio-plus.jpg" alt="">
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="item col-md-3 col-sm-6 col-xs-12">
+						<div class="img-hover">
+							<a href="#">
+								<img src="img/portfolio-2.jpg" alt="" class="img-responsive">
+								<span class="hover">
+									<img src="img/portfolio-plus.jpg" alt="">
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="item col-md-3 col-sm-6 col-xs-12">
+						<div class="img-hover">
+							<a href="#">
+								<img src="img/portfolio-1.jpg" alt="" class="img-responsive">
+								<span class="hover">
+									<img src="img/portfolio-plus.jpg" alt="">
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="item col-md-3 col-sm-6 col-xs-12">
+						<div class="img-hover">
+							<a href="#">
+								<img src="img/portfolio-4.jpg" alt="" class="img-responsive">
+								<span class="hover">
+									<img src="img/portfolio-plus.jpg" alt="">
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="item col-md-3 col-sm-6 col-xs-12">
+						<div class="img-hover">
+							<a href="#">
+								<img src="img/portfolio-5.jpg" alt="" class="img-responsive">
+								<span class="hover">
+									<img src="img/portfolio-plus.jpg" alt="">
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="item col-md-3 col-sm-6 col-xs-12">
+						<div class="img-hover">
+							<a href="#">
+								<img src="img/portfolio-6.jpg" alt="" class="img-responsive">
+								<span class="hover">
+									<img src="img/portfolio-plus.jpg" alt="">
+								</span>
+							</a>
+						</div>
+					</div>
+										
+				</div>
+			</div>
+		</section>
+		
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+		
+		
+		<!--<script src="node_modules/core-js/client/shim.min.js"></script>
+		<script src="node_modules/zone.js/dist/zone.js"></script>
+		<script src="node_modules/reflect-metadata/Reflect.js"></script>
+		<script src="node_modules/systemjs/dist/system.src.js"></script>
+		
+		<script src="systemjs.config.js"></script>
+		<script>
+			System.import('app').catch(function(err){ console.error(err); });
+		</script>-->
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
